@@ -1,0 +1,121 @@
+* {
+    font-family: cursive;
+    font-size: 17px;
+}
+
+a {
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: white;
+}
+
+
+nav {
+    border: 3px outset rgba(166, 166, 168, 0.3)
+}
+
+select {
+    border: none;
+    outline: none;
+    color: blue;
+}
+select:focus {
+    border:2px solid blue;
+}
+
+#img {
+    position: absolute;
+    top: 4.6%;
+    right: 43%;
+    transform: translate(-50%, -50%); }
+
+    
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+button {
+    color: blue;
+    position: relative;
+    left: 260px;
+}
+
+input[type=search] { border: outset rgba(166, 166, 168, 0.3);
+    outline: none;
+background-color: rgba(166, 166, 168, 0.3);}
+
+::placeholder {
+    color: blue;
+    border: none;
+}
+
+.header {
+    position: absolute;
+    bottom: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
+
+.paragraph {
+
+    position: absolute;
+    bottom: 41%;
+    left: 65%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    position: relative;
+    left: 12%;
+    top: 25px;
+}
+
+
+.box {
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 48%;
+    bottom: 115px;
+}
+
+.box-1 {
+    border: solid blue;
+    background-color: blue;
+    color: white;
+
+}
+
+.box-2 {
+    border: solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.box-3 {
+    border: solid blue;
+    background-color: blue;
+    color: white;
+}
+
+
+.box-4 {
+    border: solid blue;
+    background-color: blue;
+    color: white;
+}
